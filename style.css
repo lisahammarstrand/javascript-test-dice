@@ -1,0 +1,61 @@
+body {
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dice-container {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #diceRoll {
+    width: 200px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #diceImage {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #diceNumber {
+    font-size: 28px;
+    color: white;
+    margin-top: 0px;
+  }
+  
+  button {
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin: 16px auto;
+    -webkit-transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
